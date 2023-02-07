@@ -5,9 +5,9 @@
 */
 
 System.Console.WriteLine("Введите первое число: ");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine()!);
 System.Console.WriteLine("Введите второе число: ");
-int pow = int.Parse(Console.ReadLine());
+int pow = int.Parse(Console.ReadLine()!);
 
 int GetFunct(int num, int pow)
 {
